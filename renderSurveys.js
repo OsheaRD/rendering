@@ -1,8 +1,22 @@
 
 function renderSurveys(surveys) {
+
+let surveyHtml = surveys.map(function(survey){
+
+    let html = `
+    <div>${survey.title}</div>
+    `
+
+    let fieldsHtml = survey.fields.map(function(field){
+    
+    })
+    
+return html;
+});
+
     return `
         <div class="text-center mt-5">
-            <code>${JSON.stringify(surveys)}</code>
+         ${surveyHtml.join('')}
         </div>
     `
 }

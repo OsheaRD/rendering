@@ -1,1 +1,8 @@
 /* Type whatever CSS you need here! */
+.present{
+    background: green;
+}
+
+.absent{
+    background: red;
+}

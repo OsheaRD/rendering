@@ -2,7 +2,7 @@
 function renderMovies(movies) {
     return `
         <div class="text-center mt-5">
-            <code>${JSON.stringify(movies)}</code>
+           //?? Do I write each key in the function
         </div>
     `
 }

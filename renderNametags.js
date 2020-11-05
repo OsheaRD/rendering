@@ -1,11 +1,23 @@
+const { directive } = require("@babel/types");
 
 function renderNametags(nametags) {
+    let names =[];
+    nametags.forEach(function(name) {
+        let html = 
+        <div>
+            <div class=
+        </div>
+        names.push(name);
+    });
     return `
-        <div class="text-center mt-5">
-            <code>${JSON.stringify(nametags)}</code>
+        ${names.join("")}
+            <div class="text-center mt-5">
+          
         </div>
     `
 }
+
+// nametags is array
 
 function nametags() {
     var content = document.getElementById('content');

@@ -4,10 +4,12 @@ function renderRestaurants(restaurants) {
     // https://commons.wikimedia.org/wiki/Category:SVG_playing_cards
     return `
         <div class="text-center mt-5">
-            <code>${JSON.stringify(restaurants)}</code>
+           { <code>${JSON.stringify(restaurants)}</code>}
         </div>
     `
 }
+
+
 
 function restaurants() {
     var content = document.getElementById('content');
